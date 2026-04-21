@@ -100,7 +100,7 @@ response.
   	var bucket, key string
   	var timeout time.Duration
 
-  	flag.StringVar(&bucket, "b", "", "Bucket name.")
+	  	flag.StringVar(&bucket, "b", "", "Bucket name.")
   	flag.StringVar(&key, "k", "", "Object key name.")
   	flag.DurationVar(&timeout, "d", 0, "Upload timeout.")
   	flag.Parse()
